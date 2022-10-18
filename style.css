@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: darkgray;
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/613cc518094915.562c3c36e1b57.jpg) bottom no-repeat;
+    background-size: cover;
+
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+ footer .linck {
+    margin-bottom: 50px;
+ }
+
+ footer .links > a {
+    color: rgb(7, 32, 255);
+    padding: 0 25px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.21rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.novosti {
+    color: white;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.news {
+    background-color: rgba(37, 56, 109, 0.459);
+    padding: 50px 0 32px;
+}
+
+.one {
+    background-color: #699b0b7e;
+    padding: 50px 0 32px;
+}
+
+
+article {
+    width: 1000px;
+    margin: 0 auto 15px;
+    padding: 25px 25px;
+    border-bottom: 2px solid rgb(20, 12, 2);
+}
+
+article a {
+    color: rgb(255, 0, 13);
+    text-decoration: none;
+}
+
+article a:hover {
+ color: #5d0ef0;   
+}
+
+article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(83, 9, 67);
+    margin-bottom: 5px;
+}
+
+article img {
+width: 100%;
+height: 400px;
+object-fit: cover;
+}
+
+.text {
+    font-size: 18px;
+}
